@@ -56,4 +56,6 @@ public interface CommunityConstant {
 	 * 系统用户 ID
 	 */
 	int SYSTEM_USER_ID = 1;
+
+
 }
