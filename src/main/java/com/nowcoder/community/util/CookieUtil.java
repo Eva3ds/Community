@@ -19,5 +19,4 @@ public class CookieUtil {
         }
         return null;
     }
-
 }
