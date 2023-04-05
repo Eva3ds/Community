@@ -21,7 +21,7 @@ function send_letter() {
             $("#hintModal").modal("show");
             setTimeout(function () {
                 $("#hintModal").modal("hide");
-                location.reload();
+                location.reload();//接收异步请求，刷新当前页面
             }, 2000);
         }
     );
