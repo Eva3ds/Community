@@ -22,7 +22,7 @@ function follow() {
     } else {
         // 取消关注
         $.post(
-            "/unFollow",
+            "/unfollow",
             {"entityType": 3, "entityId": $(btn).prev().val()},
             function (data) {
                 data = $.parseJSON(data);
