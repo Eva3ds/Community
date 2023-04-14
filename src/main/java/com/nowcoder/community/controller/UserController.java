@@ -40,7 +40,7 @@ public class UserController implements CommunityConstant {
     @Value("${community.path.domain}")
     private String domain;
 
-    @Value("${server.servlet.context-path}")
+    @Value("")
     private String contextPath;
 
     @Autowired

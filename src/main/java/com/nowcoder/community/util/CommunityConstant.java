@@ -50,7 +50,9 @@ public interface CommunityConstant {
 	String TOPIC_LIKE = "like";
 	String TOPIC_FOLLOW = "follow";
 
+	/*主题：发帖、删帖*/
 	String TOPIC_PUBLISH = "publish";
+	String TOPIC_DELETE = "delete";
 
 	/**
 	 * 系统用户 ID
